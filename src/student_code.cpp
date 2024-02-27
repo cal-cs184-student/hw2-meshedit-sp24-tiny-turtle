@@ -124,12 +124,62 @@ namespace CGL
 //    return Vector3D();
   }
 
-  EdgeIter HalfedgeMesh::flipEdge( EdgeIter e0 )
-  {
-    // TODO Part 4.
-    // This method should flip the given edge and return an iterator to the flipped edge.
-    return EdgeIter();
-  }
+
+EdgeIter HalfedgeMesh::flipEdge(EdgeIter e0) {
+    HalfedgeIter h0 = e0->halfedge();
+    HalfedgeIter h1 = h0->next();
+    HalfedgeIter h2 = h1->next();
+    HalfedgeIter h3 = h0->twin()->next();
+    HalfedgeIter h4 = h3->next();
+    HalfedgeIter h0_twin = h0->twin();
+    HalfedgeIter h1_twin = h1->twin();
+    HalfedgeIter h2_twin = h2->twin();
+    HalfedgeIter h3_twin = h3->twin();
+    HalfedgeIter h4_twin = h4->twin();
+    
+    FaceIter f0 = h0->face();
+    FaceIter f1 = h0->twin()->face();
+
+    VertexIter v0 = h0->vertex();
+    VertexIter v1 = h0_twin->vertex();
+    VertexIter v2 = h2->vertex();
+    VertexIter v3 = h4->vertex();
+
+    EdgeIter e1 = h1->edge();
+    EdgeIter e2 = h2->edge();
+    EdgeIter e3 = h0_twin->next()->edge();
+    EdgeIter e4 = h3->next()->edge();
+
+
+    h0->setNeighbors(h1, h0_twin, v3, e0, f0);
+    h1->setNeighbors(h2, h2_twin, v2, e2, f0);
+    h2->setNeighbors(h0, h3_twin, v0, e3, f0);
+    h3->setNeighbors(h4, h4_twin, v3, e4, f1);
+    h4->setNeighbors(h0_twin, h1_twin, v1, e1, f1);
+    
+    h0_twin->setNeighbors(h3, h0, v2, e0, f1);
+    h1_twin->setNeighbors(h1_twin->next(), h4, v2, e1, h1_twin->face());
+    h2_twin->setNeighbors(h2_twin->next(), h1, v0, e2, h2_twin->face());
+    h3_twin->setNeighbors(h3_twin->next(), h2, v3, e3, h3_twin->face());
+    h4_twin->setNeighbors(h4_twin->next(), h3, v1, e4, h4_twin->face());
+
+    v0->halfedge() = h2;
+    v1->halfedge() = h4;
+    v2->halfedge() = h0_twin;
+    v3->halfedge() = h0;
+
+    e0->halfedge() = h0;
+    e1->halfedge() = h4;
+    e2->halfedge() = h1;
+    e3->halfedge() = h2;
+    e4->halfedge() = h3;
+
+    f0->halfedge() = h0;
+    f1->halfedge() = h0_twin;
+
+    return e0;
+    }
+
 
   VertexIter HalfedgeMesh::splitEdge( EdgeIter e0 )
   {
