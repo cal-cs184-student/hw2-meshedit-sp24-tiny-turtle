@@ -1,0 +1,2033 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		176BEB4F3B244B05BD24DBC6 /* uninstall */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 25E8CC4B358F4E798DFDAE59 /* Build configuration list for PBXAggregateTarget "uninstall" */;
+			buildPhases = (
+				E013611C0EF924CE86909FF7 /* Generate CGL/deps/glfw/CMakeFiles/uninstall */,
+			);
+			dependencies = (
+			);
+			name = uninstall;
+			productName = uninstall;
+		};
+		439BB0A6F1BF47EDBC7A83AB /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D81C43A5A27745979DF6C669 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				676CC206BA5412138745A309 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				7EB4755A682A4DF7978749A7 /* PBXTargetDependency */,
+				7E295452CAD54DAEA7BBC235 /* PBXTargetDependency */,
+				62F57F1B913543AEA850B389 /* PBXTargetDependency */,
+				795FD52577694C0A9DE5147C /* PBXTargetDependency */,
+				37DBFC7C1A174A97A978D6CD /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		DAF07CB8651441EBBB53B566 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0636C172BED948078EE3630E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				D3784B378C7486C392194546 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		FA6B35E9ECD042DEB8643778 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1666CE10CAC443E999EB0326 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				296699086A264140A0331FB8 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0130775912114E93968FC4C7 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/input.c */ = {isa = PBXBuildFile; fileRef = 4DAB131E0C174B1BABC1383C /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/input.c */; };
+		02AE03439ABB45DDA7BE90A7 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/vector2D.h */ = {isa = PBXBuildFile; fileRef = 3CB22FBA81D942D0A01E0AF7 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/vector2D.h */; };
+		08482A0C5E24412E86F99329 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/light.cpp */ = {isa = PBXBuildFile; fileRef = 053319E7B0B14E7A87404D0A /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/light.cpp */; };
+		086429AF7717485D90652A87 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glew/src/glew.c */ = {isa = PBXBuildFile; fileRef = B33205CD72214698826A2991 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glew/src/glew.c */; };
+		08C75F9803754606BED04C25 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/viewer.cpp */ = {isa = PBXBuildFile; fileRef = 30096908E8AF494186983768 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/viewer.cpp */; };
+		08FCBE8CB9BF4E819D3FC302 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/halfEdgeMesh.cpp */ = {isa = PBXBuildFile; fileRef = EBB3741EA65540089B8D1F3E /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/halfEdgeMesh.cpp */; };
+		09E5D8B8F8B14119A1C8D48F /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/vector3D.cpp */ = {isa = PBXBuildFile; fileRef = A004069A0D1B47DDAC341713 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/vector3D.cpp */; };
+		0A6AB92FB0E54E2C9AE3DACE /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/camera.cpp */ = {isa = PBXBuildFile; fileRef = 926A62F57F474C728A42A1E2 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/camera.cpp */; };
+		0E688D43753B4C0499E06106 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/mach_time.c */ = {isa = PBXBuildFile; fileRef = CE34ECF9E4C445B49A1C656B /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/mach_time.c */; };
+		115B718690C5420AA67B22DE /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/CGL.h */ = {isa = PBXBuildFile; fileRef = 88DE00274EEB49868DA3ED75 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/CGL.h */; };
+		1486EDDD4A3044A38B9D4153 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/material.h */ = {isa = PBXBuildFile; fileRef = 9A1B640F8655473E82B63F68 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/material.h */; };
+		169CA0B912AF4641B1BCE428 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/base64.h */ = {isa = PBXBuildFile; fileRef = A548026038B6403D83A088FF /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/base64.h */; };
+		179B8AFEF4FE43A686D90D2B /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/matrix3x3.cpp */ = {isa = PBXBuildFile; fileRef = 61603776737D455A9576B96D /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/matrix3x3.cpp */; };
+		1954AA79092641B2A2D59D6C /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/halfEdgeMesh.h */ = {isa = PBXBuildFile; fileRef = 80A2D6EFAA7A4B39A692B39D /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/halfEdgeMesh.h */; };
+		1B14145BB27B43D8B1EB0784 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/color.cpp */ = {isa = PBXBuildFile; fileRef = 0B803CD26A02448F829EF7A2 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/color.cpp */; };
+		1FC828F922354C32BEE4D7EC /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/base64.cpp */ = {isa = PBXBuildFile; fileRef = E77955ECD8884E058E64564C /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/base64.cpp */; };
+		21FF3769EFA841FAB2583C40 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/mergeVertices.h */ = {isa = PBXBuildFile; fileRef = E1637740CD5E43768224A93B /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/mergeVertices.h */; };
+		22D4A6D31E8B45BC8205B0CC /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/tinyxml2.h */ = {isa = PBXBuildFile; fileRef = 4D2210F450E24AACB67975EE /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/tinyxml2.h */; };
+		247019AA132846A881C25625 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/renderer.h */ = {isa = PBXBuildFile; fileRef = 61100B1D059D44E9B040BDF4 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/renderer.h */; };
+		260D6A6E0F6D4D3A9695D0D3 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/quaternion.cpp */ = {isa = PBXBuildFile; fileRef = 0DF8CCE132894423809C0E48 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/quaternion.cpp */; };
+		2742FB9BF144443A87403A74 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/osdfont.cpp */ = {isa = PBXBuildFile; fileRef = 507AC6AE023749C4A7D00FFA /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/osdfont.cpp */; };
+		276CE9E808B94899B32DA6A4 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glew/src/visualinfo.c */ = {isa = PBXBuildFile; fileRef = 65A8F60E13E543F2BCC0E667 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glew/src/visualinfo.c */; };
+		2F29C30527C04D8BB07DC53F /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/CoreFoundation.framework */ = {isa = PBXBuildFile; fileRef = 66A5C9CC0D8A4B30A9F16955 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/CoreFoundation.framework */; };
+		2FE10F2E8BA14827BB230862 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/iokit_joystick.m */ = {isa = PBXBuildFile; fileRef = 7BA010911E1C4B39BDB82446 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/iokit_joystick.m */; };
+		3627A20AF8AC410EB9BBA0A9 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = D3E4AA3CE85C44FDBA10A09F /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/cocoa_window.m */; };
+		382DE2183C25425FBA4E22A6 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/matrix3x3.h */ = {isa = PBXBuildFile; fileRef = FB7A1D3A1CD543F2B6EEBE04 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/matrix3x3.h */; };
+		389BF43DB05C43E8ADE6AB1E /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/vector3D.h */ = {isa = PBXBuildFile; fileRef = 1566EAF0A1494E6DBA2C5AF2 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/vector3D.h */; };
+		3BBB5417100B48EDAC292553 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/deps/glfw/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = 5103DBE30C4A47A28BC7D441 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/deps/glfw/src/glfw_config.h */; };
+		3C348EA6F11642C6BB007710 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/posix_tls.c */ = {isa = PBXBuildFile; fileRef = 1D55CF7FA02B460E8FAC1567 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/posix_tls.c */; };
+		4313F7467E894DE5B5BDAE8E /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/bezierPatch.cpp */ = {isa = PBXBuildFile; fileRef = 94E71CED719E4E6C96A6636D /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/bezierPatch.cpp */; };
+		461DA0DF29E14DDCA89E2B12 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/student_code.cpp */ = {isa = PBXBuildFile; fileRef = 95378C838BEE48E7977A9477 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/student_code.cpp */; };
+		50488288290F4D96816C9D44 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/meshEdit.h */ = {isa = PBXBuildFile; fileRef = 1C0B1529DDE74F6387066455 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/meshEdit.h */; };
+		5374B8112CF241C28C05EEC1 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/main.cpp */ = {isa = PBXBuildFile; fileRef = FA67783A44F94C19A31DFE9C /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/main.cpp */; };
+		53CF9575E2ED461693F07ED8 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 6089CD8F84FC43CA80C6944F /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/CMakeLists.txt */; };
+		540F32A1E47046DEBEA4F164 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/mesh.cpp */ = {isa = PBXBuildFile; fileRef = E496D6FD79A247DCA33AE6A1 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/mesh.cpp */; };
+		562B5871B4494A11B6C854BC /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/osdtext.h */ = {isa = PBXBuildFile; fileRef = B0C9A91D2BC2418C94C1449C /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/osdtext.h */; };
+		5996684CD2A845228D7C0187 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = 47C5B37E0D1D4D38BD389F18 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/include/GLFW/glfw3.h */; };
+		5A299982EB42423CBE9E8613 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glew/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = FDD04A625CB24A4FBCC97541 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glew/CMakeLists.txt */; };
+		606E9A82706A4D3BA7181430 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/monitor.c */ = {isa = PBXBuildFile; fileRef = 5F3DA06D80AA486EBFB6FF91 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/monitor.c */; };
+		64902AEC887149B6902AE161 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/light.h */ = {isa = PBXBuildFile; fileRef = 3650BB5A48E24BE4B2F7BA62 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/light.h */; };
+		653FB9F9C6304D848E133243 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 44D1D4221EA840ECBBA620BF /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/nsgl_context.m */; };
+		67D04313E20840FAA4DFCCC9 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/matrix4x4.cpp */ = {isa = PBXBuildFile; fileRef = B0E170A3758B46209A4E2261 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/matrix4x4.cpp */; };
+		6917ACBA428841A9834C0B8A /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/collada.cpp */ = {isa = PBXBuildFile; fileRef = 6EF2BD0116DD409DB44B8045 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/collada.cpp */; };
+		69CFCDEADD774547BCC39D26 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/png.cpp */ = {isa = PBXBuildFile; fileRef = 410E6E48952C4ACD90F40AA8 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/png.cpp */; };
+		6A1EF75A7C4F45B29CDBCABA /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/material.cpp */ = {isa = PBXBuildFile; fileRef = 7A87C37470D042FF8B3CEF9C /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/material.cpp */; };
+		6C0709A344A949A6B0C4A0A2 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/Cocoa.framework */ = {isa = PBXBuildFile; fileRef = F5C317D144264616A07CEA11 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/Cocoa.framework */; };
+		6E6A8F045D7D4923A600DC1A /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/student_code.h */ = {isa = PBXBuildFile; fileRef = A0C1FAAE4F8749D98D91DE06 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/student_code.h */; };
+		72770EB094584754B84825E2 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/IOKit.framework */ = {isa = PBXBuildFile; fileRef = 2E5292E96B38451597A23AD7 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/IOKit.framework */; };
+		76FEC6E948DB40559BC9769E /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = D41F8AE24E2840ADA0875946 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/cocoa_init.m */; };
+		7863A336623C48B082344D8F /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/bezierPatch.h */ = {isa = PBXBuildFile; fileRef = 06685CF1E86945759C7937A7 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/bezierPatch.h */; };
+		7C46DCAC53134D37BF1EDD74 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/posix_tls.h */ = {isa = PBXBuildFile; fileRef = 1BA376F6D17D4C4DAA5C6408 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/posix_tls.h */; };
+		7D84F3FA04E54FD180ACE0B8 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/texture.cpp */ = {isa = PBXBuildFile; fileRef = 731ED70FFAE34AEB90A5B79D /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/texture.cpp */; };
+		84F303EED5894A049E751A46 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glew/src/glewinfo.c */ = {isa = PBXBuildFile; fileRef = DFD7494090AC4A22A22DDF38 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glew/src/glewinfo.c */; };
+		8545D1A8D69348C8B47D615E /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/osdtext.cpp */ = {isa = PBXBuildFile; fileRef = E2A4265CF61F4B8A8F9A3DF1 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/osdtext.cpp */; };
+		8FFEB2ED6D174874AA6DA0EF /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/vector4D.cpp */ = {isa = PBXBuildFile; fileRef = 0CE3E29253B042E5BAC170B6 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/vector4D.cpp */; };
+		90DD22A7B074434C86DC0C54 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/bezierCurve.cpp */ = {isa = PBXBuildFile; fileRef = DF79BF35E6F643728DAA1AA5 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/bezierCurve.cpp */; };
+		99307CB6725146EDB3303E29 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenGL.framework */ = {isa = PBXBuildFile; fileRef = 09FC9AF837774F4D9C47ED62 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenGL.framework */; };
+		A085837A969C438DA8EE0461 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/scene.cpp */ = {isa = PBXBuildFile; fileRef = 87376062961549A6B2CC2F87 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/scene.cpp */; };
+		A0EE493453B2444F8769C36F /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/complex.h */ = {isa = PBXBuildFile; fileRef = 0CE5632CDB85421AB2F15ADE /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/complex.h */; };
+		A165F221C40D449F81AF0C25 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/meshEdit.cpp */ = {isa = PBXBuildFile; fileRef = 04019DBB41E04B0394C17248 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/meshEdit.cpp */; };
+		A5188322731545C4B13D6D23 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/iokit_joystick.h */ = {isa = PBXBuildFile; fileRef = 0D8B9FDABC4B4190A2715674 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/iokit_joystick.h */; };
+		A65CF1E9EB204B3FA0CB01AC /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/shaderUtils.h */ = {isa = PBXBuildFile; fileRef = 96B9D674D90D43F5B16E9EB1 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/shaderUtils.h */; };
+		A988E79ADB0548E7B520AD74 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 237478D35A374604B4911A59 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/CMakeLists.txt */; };
+		B7ED936A61EF4E669DC01B1D /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/internal.h */ = {isa = PBXBuildFile; fileRef = 21FF927F6DFE4C699750DFFE /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/internal.h */; };
+		B82ECA2AED784D348DA3363E /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/camera.h */ = {isa = PBXBuildFile; fileRef = F09F8E3543F348858E1C2A41 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/camera.h */; };
+		B9820CBD11894729B41AE1BA /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/context.c */ = {isa = PBXBuildFile; fileRef = D1F74510C8A340049E074769 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/context.c */; };
+		BBF482AC74B1482AA23147EE /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = D21FCF1795FE4B17ACFF91F6 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/cocoa_platform.h */; };
+		C00CACBAD6274C84959BAC0D /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = 1AE025146D534C3F8EF21B6F /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/nsgl_context.h */; };
+		C431672AB0E24611BA177795 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/scene.h */ = {isa = PBXBuildFile; fileRef = 2424FD2AF3FA47CEB0C202D1 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/scene.h */; };
+		C6F6AB70485B41DB964632AB /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/quaternion.h */ = {isa = PBXBuildFile; fileRef = D6C7CF4366BF44A4923D31A3 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/quaternion.h */; };
+		C76CCF396578452B81EE49A9 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/texture.h */ = {isa = PBXBuildFile; fileRef = 2098A24AE53947C584D96182 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/texture.h */; };
+		C90FE4A23FAD4E2AA9DF2229 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/window.c */ = {isa = PBXBuildFile; fileRef = 666EFF3236DB4EBEAFBA4810 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/window.c */; };
+		CA0FF5D974314989932AA449 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/color.h */ = {isa = PBXBuildFile; fileRef = 56B3E0C5E4BA454381675DAC /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/color.h */; };
+		CB9F5053424F41398DED5604 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/mesh.h */ = {isa = PBXBuildFile; fileRef = 2DF599A5FE804B94B05153C9 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/mesh.h */; };
+		CC4C29790D4A48018F9721A2 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/collada.h */ = {isa = PBXBuildFile; fileRef = D3A3F98972E442BC8AE2D018 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/collada.h */; };
+		CCF20DB4C5474E65A166522D /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = 3EFDC67FBCDE4E7982212710 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/include/GLFW/glfw3native.h */; };
+		CD6E7E1FA73040C5B58A4441 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0035FB624E8C45FF9BC4B991 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/CMakeLists.txt */; };
+		D23C685F2B0D49FB8B3A7ADC /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/init.c */ = {isa = PBXBuildFile; fileRef = 495293FE1E0647DC9401F933 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/init.c */; };
+		D42A48C1DDF3427CB85BAAAA /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/png.h */ = {isa = PBXBuildFile; fileRef = 738127828E0B4E7BA8CCAA74 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/png.h */; };
+		D459ABF9150248958A8304C3 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/vector4D.h */ = {isa = PBXBuildFile; fileRef = F84B7EAF27624A0D99ABC256 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/vector4D.h */; };
+		DD4EB3A65C744290B4A8CF7D /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/bezierCurve.h */ = {isa = PBXBuildFile; fileRef = 3AF20A9C49B14DE99B6552B7 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/bezierCurve.h */; };
+		DE5C701068FF4676B2DFA28E /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/viewer.h */ = {isa = PBXBuildFile; fileRef = 26ACEB5BDDB74D2D9947B553 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/viewer.h */; };
+		E0E667696464432794226CE2 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/complex.cpp */ = {isa = PBXBuildFile; fileRef = 3C5C0780E0C44AE69BEA7870 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/complex.cpp */; };
+		E9F9696088154AF29D18ED57 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/matrix4x4.h */ = {isa = PBXBuildFile; fileRef = 3D864A0E0D3849C6A58C01EA /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/matrix4x4.h */; };
+		ECDC245AC9C94489B6BA712C /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = FFF203580FD94E79AF1B7993 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/cocoa_monitor.m */; };
+		ED804A36F10C459883B1E83F /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/vector2D.cpp */ = {isa = PBXBuildFile; fileRef = 71804E284E504CEC8770B835 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/vector2D.cpp */; };
+		F3F3B60B75EF43FDA0575217 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/CoreVideo.framework */ = {isa = PBXBuildFile; fileRef = E4972F45F85A4A58AA613352 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/CoreVideo.framework */; };
+		FF8D5DBAB8494081A63483A8 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/tinyxml2.cpp */ = {isa = PBXBuildFile; fileRef = 07CB8AA4F550444DB935FB47 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/tinyxml2.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		7644099AFF1E4D978AF38513 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		77F3DA18FCCC4728BDF0725E /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		81524CAAD93140B98CDC3B52 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		8820F4D78EA840DEAD58BEA2 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0C46D6519F684064AFCDE866 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDD4B5147FB640AB890F2173 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86CC0EA8B6F04C0DA9AF540A;
+			remoteInfo = meshedit;
+		};
+		3DEE5B7E1FEC44CFAD5CF4C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDD4B5147FB640AB890F2173 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAF07CB8651441EBBB53B566;
+			remoteInfo = ZERO_CHECK;
+		};
+		556A3C991FCF4928BBEC6E30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDD4B5147FB640AB890F2173 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 439BB0A6F1BF47EDBC7A83AB;
+			remoteInfo = ALL_BUILD;
+		};
+		66047B6FB8434CFC8F5804F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDD4B5147FB640AB890F2173 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 200DBA5295254D91AA303CE2;
+			remoteInfo = glfw;
+		};
+		ADDEF6981CA141DF8CA05486 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDD4B5147FB640AB890F2173 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 200DBA5295254D91AA303CE2;
+			remoteInfo = glfw;
+		};
+		B6C801CCD68940268A6278EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDD4B5147FB640AB890F2173 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB4FD854413F4A03944E0DFD;
+			remoteInfo = glew;
+		};
+		C095AA078F4C4870B66384E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDD4B5147FB640AB890F2173 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DB95B801DB547D580E401AA;
+			remoteInfo = CGL;
+		};
+		DD60969F1F0E41CA8571C094 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDD4B5147FB640AB890F2173 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB4FD854413F4A03944E0DFD;
+			remoteInfo = glew;
+		};
+		EC0507F25FBE41F6A86B4E4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDD4B5147FB640AB890F2173 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB4FD854413F4A03944E0DFD;
+			remoteInfo = glew;
+		};
+		F394949C674F489585C91A2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDD4B5147FB640AB890F2173 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DB95B801DB547D580E401AA;
+			remoteInfo = CGL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0035FB624E8C45FF9BC4B991 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		04019DBB41E04B0394C17248 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/meshEdit.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = meshEdit.cpp; path = src/meshEdit.cpp; sourceTree = SOURCE_ROOT; };
+		053319E7B0B14E7A87404D0A /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/light.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = light.cpp; path = src/light.cpp; sourceTree = SOURCE_ROOT; };
+		06685CF1E86945759C7937A7 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/bezierPatch.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bezierPatch.h; path = src/bezierPatch.h; sourceTree = SOURCE_ROOT; };
+		07CB8AA4F550444DB935FB47 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/tinyxml2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinyxml2.cpp; path = CGL/src/tinyxml2.cpp; sourceTree = SOURCE_ROOT; };
+		09FC9AF837774F4D9C47ED62 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenGL.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		0B803CD26A02448F829EF7A2 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/color.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = color.cpp; path = CGL/src/color.cpp; sourceTree = SOURCE_ROOT; };
+		0CE3E29253B042E5BAC170B6 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/vector4D.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vector4D.cpp; path = CGL/src/vector4D.cpp; sourceTree = SOURCE_ROOT; };
+		0CE5632CDB85421AB2F15ADE /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/complex.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = complex.h; path = CGL/src/complex.h; sourceTree = SOURCE_ROOT; };
+		0D8B9FDABC4B4190A2715674 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/iokit_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iokit_joystick.h; path = CGL/deps/glfw/src/iokit_joystick.h; sourceTree = SOURCE_ROOT; };
+		0DF8CCE132894423809C0E48 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/quaternion.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = quaternion.cpp; path = CGL/src/quaternion.cpp; sourceTree = SOURCE_ROOT; };
+		1566EAF0A1494E6DBA2C5AF2 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/vector3D.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vector3D.h; path = CGL/src/vector3D.h; sourceTree = SOURCE_ROOT; };
+		1AE025146D534C3F8EF21B6F /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = CGL/deps/glfw/src/nsgl_context.h; sourceTree = SOURCE_ROOT; };
+		1BA376F6D17D4C4DAA5C6408 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/posix_tls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_tls.h; path = CGL/deps/glfw/src/posix_tls.h; sourceTree = SOURCE_ROOT; };
+		1C0B1529DDE74F6387066455 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/meshEdit.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = meshEdit.h; path = src/meshEdit.h; sourceTree = SOURCE_ROOT; };
+		1D55CF7FA02B460E8FAC1567 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/posix_tls.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_tls.c; path = CGL/deps/glfw/src/posix_tls.c; sourceTree = SOURCE_ROOT; };
+		2098A24AE53947C584D96182 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/texture.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = texture.h; path = src/texture.h; sourceTree = SOURCE_ROOT; };
+		21FF927F6DFE4C699750DFFE /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = CGL/deps/glfw/src/internal.h; sourceTree = SOURCE_ROOT; };
+		237478D35A374604B4911A59 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CGL/src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2424FD2AF3FA47CEB0C202D1 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/scene.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = scene.h; path = src/scene.h; sourceTree = SOURCE_ROOT; };
+		26ACEB5BDDB74D2D9947B553 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/viewer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = viewer.h; path = CGL/src/viewer.h; sourceTree = SOURCE_ROOT; };
+		2DF599A5FE804B94B05153C9 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/mesh.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mesh.h; path = src/mesh.h; sourceTree = SOURCE_ROOT; };
+		2E5292E96B38451597A23AD7 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/IOKit.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		30096908E8AF494186983768 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/viewer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = viewer.cpp; path = CGL/src/viewer.cpp; sourceTree = SOURCE_ROOT; };
+		315F7D3CBBB24273B0CC7700 /* CGL */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCGL.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3650BB5A48E24BE4B2F7BA62 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/light.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = light.h; path = src/light.h; sourceTree = SOURCE_ROOT; };
+		3AF20A9C49B14DE99B6552B7 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/bezierCurve.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bezierCurve.h; path = src/bezierCurve.h; sourceTree = SOURCE_ROOT; };
+		3C5C0780E0C44AE69BEA7870 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/complex.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = complex.cpp; path = CGL/src/complex.cpp; sourceTree = SOURCE_ROOT; };
+		3CB22FBA81D942D0A01E0AF7 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/vector2D.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vector2D.h; path = CGL/src/vector2D.h; sourceTree = SOURCE_ROOT; };
+		3D864A0E0D3849C6A58C01EA /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/matrix4x4.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = matrix4x4.h; path = CGL/src/matrix4x4.h; sourceTree = SOURCE_ROOT; };
+		3E2668A580BB48D6858B385C /* meshedit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = meshedit; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EFDC67FBCDE4E7982212710 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = CGL/deps/glfw/include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		410E6E48952C4ACD90F40AA8 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/png.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = png.cpp; path = src/png.cpp; sourceTree = SOURCE_ROOT; };
+		44D1D4221EA840ECBBA620BF /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = CGL/deps/glfw/src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		47C5B37E0D1D4D38BD389F18 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = CGL/deps/glfw/include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+		495293FE1E0647DC9401F933 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = CGL/deps/glfw/src/init.c; sourceTree = SOURCE_ROOT; };
+		4D2210F450E24AACB67975EE /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/tinyxml2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tinyxml2.h; path = CGL/src/tinyxml2.h; sourceTree = SOURCE_ROOT; };
+		4DAB131E0C174B1BABC1383C /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = CGL/deps/glfw/src/input.c; sourceTree = SOURCE_ROOT; };
+		507AC6AE023749C4A7D00FFA /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/osdfont.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = osdfont.cpp; path = CGL/src/osdfont.cpp; sourceTree = SOURCE_ROOT; };
+		5103DBE30C4A47A28BC7D441 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/deps/glfw/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = xcode/CGL/deps/glfw/src/glfw_config.h; sourceTree = SOURCE_ROOT; };
+		56B3E0C5E4BA454381675DAC /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/color.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = color.h; path = CGL/src/color.h; sourceTree = SOURCE_ROOT; };
+		5F3DA06D80AA486EBFB6FF91 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = CGL/deps/glfw/src/monitor.c; sourceTree = SOURCE_ROOT; };
+		6089CD8F84FC43CA80C6944F /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CGL/deps/glfw/src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		61100B1D059D44E9B040BDF4 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/renderer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = renderer.h; path = CGL/src/renderer.h; sourceTree = SOURCE_ROOT; };
+		61603776737D455A9576B96D /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/matrix3x3.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = matrix3x3.cpp; path = CGL/src/matrix3x3.cpp; sourceTree = SOURCE_ROOT; };
+		62EDAC802F334571AE43FAD7 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CGL/deps/glfw/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		65A8F60E13E543F2BCC0E667 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glew/src/visualinfo.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = visualinfo.c; path = CGL/deps/glew/src/visualinfo.c; sourceTree = SOURCE_ROOT; };
+		666EFF3236DB4EBEAFBA4810 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = CGL/deps/glfw/src/window.c; sourceTree = SOURCE_ROOT; };
+		66A5C9CC0D8A4B30A9F16955 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/CoreFoundation.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		6EF2BD0116DD409DB44B8045 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/collada.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = collada.cpp; path = src/collada.cpp; sourceTree = SOURCE_ROOT; };
+		71804E284E504CEC8770B835 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/vector2D.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vector2D.cpp; path = CGL/src/vector2D.cpp; sourceTree = SOURCE_ROOT; };
+		731ED70FFAE34AEB90A5B79D /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/texture.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = texture.cpp; path = src/texture.cpp; sourceTree = SOURCE_ROOT; };
+		738127828E0B4E7BA8CCAA74 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/png.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = png.h; path = src/png.h; sourceTree = SOURCE_ROOT; };
+		761AF0F6FF1C48EFB1733DB0 /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A87C37470D042FF8B3CEF9C /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/material.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = material.cpp; path = src/material.cpp; sourceTree = SOURCE_ROOT; };
+		7BA010911E1C4B39BDB82446 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/iokit_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = iokit_joystick.m; path = CGL/deps/glfw/src/iokit_joystick.m; sourceTree = SOURCE_ROOT; };
+		80A2D6EFAA7A4B39A692B39D /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/halfEdgeMesh.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = halfEdgeMesh.h; path = src/halfEdgeMesh.h; sourceTree = SOURCE_ROOT; };
+		87376062961549A6B2CC2F87 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/scene.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scene.cpp; path = src/scene.cpp; sourceTree = SOURCE_ROOT; };
+		88DE00274EEB49868DA3ED75 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/CGL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CGL.h; path = CGL/src/CGL.h; sourceTree = SOURCE_ROOT; };
+		926A62F57F474C728A42A1E2 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/camera.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = camera.cpp; path = src/camera.cpp; sourceTree = SOURCE_ROOT; };
+		94E71CED719E4E6C96A6636D /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/bezierPatch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bezierPatch.cpp; path = src/bezierPatch.cpp; sourceTree = SOURCE_ROOT; };
+		95378C838BEE48E7977A9477 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/student_code.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = student_code.cpp; path = src/student_code.cpp; sourceTree = SOURCE_ROOT; };
+		96B9D674D90D43F5B16E9EB1 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/shaderUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = shaderUtils.h; path = src/shaderUtils.h; sourceTree = SOURCE_ROOT; };
+		9A1B640F8655473E82B63F68 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/material.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = material.h; path = src/material.h; sourceTree = SOURCE_ROOT; };
+		A004069A0D1B47DDAC341713 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/vector3D.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vector3D.cpp; path = CGL/src/vector3D.cpp; sourceTree = SOURCE_ROOT; };
+		A0C1FAAE4F8749D98D91DE06 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/student_code.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = student_code.h; path = src/student_code.h; sourceTree = SOURCE_ROOT; };
+		A548026038B6403D83A088FF /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/base64.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = base64.h; path = CGL/src/base64.h; sourceTree = SOURCE_ROOT; };
+		B0C9A91D2BC2418C94C1449C /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/osdtext.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = osdtext.h; path = CGL/src/osdtext.h; sourceTree = SOURCE_ROOT; };
+		B0E170A3758B46209A4E2261 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/matrix4x4.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = matrix4x4.cpp; path = CGL/src/matrix4x4.cpp; sourceTree = SOURCE_ROOT; };
+		B33205CD72214698826A2991 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glew/src/glew.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glew.c; path = CGL/deps/glew/src/glew.c; sourceTree = SOURCE_ROOT; };
+		C2620FA6FC67446EAA08299B /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CE34ECF9E4C445B49A1C656B /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/mach_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = mach_time.c; path = CGL/deps/glfw/src/mach_time.c; sourceTree = SOURCE_ROOT; };
+		D1F74510C8A340049E074769 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = CGL/deps/glfw/src/context.c; sourceTree = SOURCE_ROOT; };
+		D21FCF1795FE4B17ACFF91F6 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = CGL/deps/glfw/src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
+		D3A3F98972E442BC8AE2D018 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/collada.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = collada.h; path = src/collada.h; sourceTree = SOURCE_ROOT; };
+		D3E4AA3CE85C44FDBA10A09F /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = CGL/deps/glfw/src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		D41F8AE24E2840ADA0875946 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = CGL/deps/glfw/src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		D6C7CF4366BF44A4923D31A3 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/quaternion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = quaternion.h; path = CGL/src/quaternion.h; sourceTree = SOURCE_ROOT; };
+		DF79BF35E6F643728DAA1AA5 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/bezierCurve.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bezierCurve.cpp; path = src/bezierCurve.cpp; sourceTree = SOURCE_ROOT; };
+		DFD7494090AC4A22A22DDF38 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glew/src/glewinfo.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glewinfo.c; path = CGL/deps/glew/src/glewinfo.c; sourceTree = SOURCE_ROOT; };
+		E1637740CD5E43768224A93B /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/mergeVertices.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mergeVertices.h; path = src/mergeVertices.h; sourceTree = SOURCE_ROOT; };
+		E2A4265CF61F4B8A8F9A3DF1 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/osdtext.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = osdtext.cpp; path = CGL/src/osdtext.cpp; sourceTree = SOURCE_ROOT; };
+		E496D6FD79A247DCA33AE6A1 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/mesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mesh.cpp; path = src/mesh.cpp; sourceTree = SOURCE_ROOT; };
+		E4972F45F85A4A58AA613352 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/CoreVideo.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		E77955ECD8884E058E64564C /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/base64.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = base64.cpp; path = CGL/src/base64.cpp; sourceTree = SOURCE_ROOT; };
+		EBB3741EA65540089B8D1F3E /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/halfEdgeMesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = halfEdgeMesh.cpp; path = src/halfEdgeMesh.cpp; sourceTree = SOURCE_ROOT; };
+		F09F8E3543F348858E1C2A41 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/camera.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = camera.h; path = src/camera.h; sourceTree = SOURCE_ROOT; };
+		F5C317D144264616A07CEA11 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/Cocoa.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		F669ABB7A322459EAD015EA7 /* glew */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglew.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F84B7EAF27624A0D99ABC256 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/vector4D.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vector4D.h; path = CGL/src/vector4D.h; sourceTree = SOURCE_ROOT; };
+		FA67783A44F94C19A31DFE9C /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		FB7A1D3A1CD543F2B6EEBE04 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/matrix3x3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = matrix3x3.h; path = CGL/src/matrix3x3.h; sourceTree = SOURCE_ROOT; };
+		FDD04A625CB24A4FBCC97541 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glew/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CGL/deps/glew/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FFF203580FD94E79AF1B7993 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = CGL/deps/glfw/src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66A7D840A2A341C3B5D3DC5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D450600CB3461084CB9C15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE357B2481C44CB7A1FD1978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9DA4A91FCB94D42988FC502 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F750CA9B0E444CAE21EC1A /* meshedit */ = {
+			isa = PBXGroup;
+			children = (
+				7091C72908294A619706FCCC /* Source Files */,
+				4A0BA3887D5146E98153B0A2 /* Header Files */,
+				0035FB624E8C45FF9BC4B991 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/CMakeLists.txt */,
+			);
+			name = meshedit;
+			sourceTree = "<group>";
+		};
+		20223F6E483A49F0AE3D57FD /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				88DE00274EEB49868DA3ED75 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/CGL.h */,
+				A548026038B6403D83A088FF /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/base64.h */,
+				56B3E0C5E4BA454381675DAC /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/color.h */,
+				0CE5632CDB85421AB2F15ADE /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/complex.h */,
+				FB7A1D3A1CD543F2B6EEBE04 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/matrix3x3.h */,
+				3D864A0E0D3849C6A58C01EA /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/matrix4x4.h */,
+				B0C9A91D2BC2418C94C1449C /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/osdtext.h */,
+				D6C7CF4366BF44A4923D31A3 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/quaternion.h */,
+				61100B1D059D44E9B040BDF4 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/renderer.h */,
+				4D2210F450E24AACB67975EE /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/tinyxml2.h */,
+				3CB22FBA81D942D0A01E0AF7 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/vector2D.h */,
+				1566EAF0A1494E6DBA2C5AF2 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/vector3D.h */,
+				F84B7EAF27624A0D99ABC256 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/vector4D.h */,
+				26ACEB5BDDB74D2D9947B553 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/viewer.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		3DA6525F222845E1B72E49E6 = {
+			isa = PBXGroup;
+			children = (
+				EEA7E90F01424D1FBE61FA5C /* ALL_BUILD */,
+				7F464DDAAEB643AFBDF617FE /* glew */,
+				C0796F3A54C3483E8A23FAEA /* uninstall */,
+				B4390C2F04E2479E88C48AFE /* GLFW3 */,
+				B56FDC5085E947F78E89BD3B /* CGL */,
+				04F750CA9B0E444CAE21EC1A /* meshedit */,
+				4E90EC4A311E487EB2F739BF /* Products */,
+				7E8BA9BBF6964FAF8A380A18 /* Frameworks */,
+				BBDDCCC02412451D88BAEC20 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		4A0BA3887D5146E98153B0A2 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AF20A9C49B14DE99B6552B7 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/bezierCurve.h */,
+				06685CF1E86945759C7937A7 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/bezierPatch.h */,
+				F09F8E3543F348858E1C2A41 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/camera.h */,
+				D3A3F98972E442BC8AE2D018 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/collada.h */,
+				80A2D6EFAA7A4B39A692B39D /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/halfEdgeMesh.h */,
+				3650BB5A48E24BE4B2F7BA62 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/light.h */,
+				9A1B640F8655473E82B63F68 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/material.h */,
+				E1637740CD5E43768224A93B /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/mergeVertices.h */,
+				2DF599A5FE804B94B05153C9 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/mesh.h */,
+				1C0B1529DDE74F6387066455 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/meshEdit.h */,
+				738127828E0B4E7BA8CCAA74 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/png.h */,
+				2424FD2AF3FA47CEB0C202D1 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/scene.h */,
+				96B9D674D90D43F5B16E9EB1 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/shaderUtils.h */,
+				A0C1FAAE4F8749D98D91DE06 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/student_code.h */,
+				2098A24AE53947C584D96182 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/texture.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		4D49AB499D094B488E4FCC91 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B33205CD72214698826A2991 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glew/src/glew.c */,
+				DFD7494090AC4A22A22DDF38 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glew/src/glewinfo.c */,
+				65A8F60E13E543F2BCC0E667 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glew/src/visualinfo.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		4E90EC4A311E487EB2F739BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				315F7D3CBBB24273B0CC7700 /* CGL */,
+				F669ABB7A322459EAD015EA7 /* glew */,
+				761AF0F6FF1C48EFB1733DB0 /* glfw */,
+				3E2668A580BB48D6858B385C /* meshedit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63298BD7CD96419298DCB18E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D41F8AE24E2840ADA0875946 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/cocoa_init.m */,
+				FFF203580FD94E79AF1B7993 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/cocoa_monitor.m */,
+				D3E4AA3CE85C44FDBA10A09F /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/cocoa_window.m */,
+				D1F74510C8A340049E074769 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/context.c */,
+				495293FE1E0647DC9401F933 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/init.c */,
+				4DAB131E0C174B1BABC1383C /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/input.c */,
+				7BA010911E1C4B39BDB82446 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/iokit_joystick.m */,
+				CE34ECF9E4C445B49A1C656B /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/mach_time.c */,
+				5F3DA06D80AA486EBFB6FF91 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/monitor.c */,
+				44D1D4221EA840ECBBA620BF /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/nsgl_context.m */,
+				1D55CF7FA02B460E8FAC1567 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/posix_tls.c */,
+				666EFF3236DB4EBEAFBA4810 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		7091C72908294A619706FCCC /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF79BF35E6F643728DAA1AA5 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/bezierCurve.cpp */,
+				94E71CED719E4E6C96A6636D /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/bezierPatch.cpp */,
+				926A62F57F474C728A42A1E2 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/camera.cpp */,
+				6EF2BD0116DD409DB44B8045 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/collada.cpp */,
+				EBB3741EA65540089B8D1F3E /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/halfEdgeMesh.cpp */,
+				053319E7B0B14E7A87404D0A /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/light.cpp */,
+				FA67783A44F94C19A31DFE9C /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/main.cpp */,
+				7A87C37470D042FF8B3CEF9C /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/material.cpp */,
+				E496D6FD79A247DCA33AE6A1 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/mesh.cpp */,
+				04019DBB41E04B0394C17248 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/meshEdit.cpp */,
+				410E6E48952C4ACD90F40AA8 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/png.cpp */,
+				87376062961549A6B2CC2F87 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/scene.cpp */,
+				95378C838BEE48E7977A9477 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/student_code.cpp */,
+				731ED70FFAE34AEB90A5B79D /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/texture.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		7E8BA9BBF6964FAF8A380A18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5C317D144264616A07CEA11 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/Cocoa.framework */,
+				09FC9AF837774F4D9C47ED62 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenGL.framework */,
+				2E5292E96B38451597A23AD7 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/IOKit.framework */,
+				66A5C9CC0D8A4B30A9F16955 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/CoreFoundation.framework */,
+				E4972F45F85A4A58AA613352 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/CoreVideo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F464DDAAEB643AFBDF617FE /* glew */ = {
+			isa = PBXGroup;
+			children = (
+				4D49AB499D094B488E4FCC91 /* Source Files */,
+				FDD04A625CB24A4FBCC97541 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glew/CMakeLists.txt */,
+			);
+			name = glew;
+			sourceTree = "<group>";
+		};
+		85A05F8B2A8545E787757876 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				47C5B37E0D1D4D38BD389F18 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/include/GLFW/glfw3.h */,
+				3EFDC67FBCDE4E7982212710 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/include/GLFW/glfw3native.h */,
+				D21FCF1795FE4B17ACFF91F6 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/cocoa_platform.h */,
+				21FF927F6DFE4C699750DFFE /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/internal.h */,
+				0D8B9FDABC4B4190A2715674 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/iokit_joystick.h */,
+				1AE025146D534C3F8EF21B6F /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/nsgl_context.h */,
+				1BA376F6D17D4C4DAA5C6408 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/posix_tls.h */,
+				5103DBE30C4A47A28BC7D441 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/deps/glfw/src/glfw_config.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		86647C1A1AF64A31B044616A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E77955ECD8884E058E64564C /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/base64.cpp */,
+				0B803CD26A02448F829EF7A2 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/color.cpp */,
+				3C5C0780E0C44AE69BEA7870 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/complex.cpp */,
+				61603776737D455A9576B96D /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/matrix3x3.cpp */,
+				B0E170A3758B46209A4E2261 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/matrix4x4.cpp */,
+				507AC6AE023749C4A7D00FFA /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/osdfont.cpp */,
+				E2A4265CF61F4B8A8F9A3DF1 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/osdtext.cpp */,
+				0DF8CCE132894423809C0E48 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/quaternion.cpp */,
+				07CB8AA4F550444DB935FB47 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/tinyxml2.cpp */,
+				71804E284E504CEC8770B835 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/vector2D.cpp */,
+				A004069A0D1B47DDAC341713 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/vector3D.cpp */,
+				0CE3E29253B042E5BAC170B6 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/vector4D.cpp */,
+				30096908E8AF494186983768 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/viewer.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		B4390C2F04E2479E88C48AFE /* GLFW3 */ = {
+			isa = PBXGroup;
+			children = (
+				CB8040294D0040258C0A78A6 /* glfw */,
+			);
+			name = GLFW3;
+			sourceTree = "<group>";
+		};
+		B56FDC5085E947F78E89BD3B /* CGL */ = {
+			isa = PBXGroup;
+			children = (
+				86647C1A1AF64A31B044616A /* Source Files */,
+				20223F6E483A49F0AE3D57FD /* Header Files */,
+				237478D35A374604B4911A59 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/CMakeLists.txt */,
+			);
+			name = CGL;
+			sourceTree = "<group>";
+		};
+		BBDDCCC02412451D88BAEC20 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C0796F3A54C3483E8A23FAEA /* uninstall */ = {
+			isa = PBXGroup;
+			children = (
+				C5CF24FB4B194E5983F44BC4 /* CMake Rules */,
+				62EDAC802F334571AE43FAD7 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/CMakeLists.txt */,
+			);
+			name = uninstall;
+			sourceTree = "<group>";
+		};
+		C5CF24FB4B194E5983F44BC4 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		CB8040294D0040258C0A78A6 /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				63298BD7CD96419298DCB18E /* Source Files */,
+				85A05F8B2A8545E787757876 /* Header Files */,
+				6089CD8F84FC43CA80C6944F /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		E11464598FB94140BCD7A479 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		EEA7E90F01424D1FBE61FA5C /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				E11464598FB94140BCD7A479 /* CMake Rules */,
+				C2620FA6FC67446EAA08299B /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		200DBA5295254D91AA303CE2 /* glfw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24DB8FCA9C24B0ABE583120 /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildPhases = (
+				4A23FEADFCFC449F9EA221A2 /* Sources */,
+				83D450600CB3461084CB9C15 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = glfw;
+			productName = glfw;
+			productReference = 761AF0F6FF1C48EFB1733DB0 /* glfw */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3DB95B801DB547D580E401AA /* CGL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F578DF1859846F290F67DD6 /* Build configuration list for PBXNativeTarget "CGL" */;
+			buildPhases = (
+				CA28FC8012DF4FBF8CB54DAD /* Sources */,
+				DE357B2481C44CB7A1FD1978 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A42D4BCE6684E6683B61F9A /* PBXTargetDependency */,
+			);
+			name = CGL;
+			productName = CGL;
+			productReference = 315F7D3CBBB24273B0CC7700 /* CGL */;
+			productType = "com.apple.product-type.library.static";
+		};
+		86CC0EA8B6F04C0DA9AF540A /* meshedit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72FB115BCB6E46F0B37EFD19 /* Build configuration list for PBXNativeTarget "meshedit" */;
+			buildPhases = (
+				CDFCC67AE05B426C9D84094C /* Sources */,
+				66A7D840A2A341C3B5D3DC5C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98B36518AFF348BC90BD5880 /* PBXTargetDependency */,
+				E6A0AEACD0AA4D98967FC826 /* PBXTargetDependency */,
+				201D0C753F4045EB90B775D1 /* PBXTargetDependency */,
+			);
+			name = meshedit;
+			productName = meshedit;
+			productReference = 3E2668A580BB48D6858B385C /* meshedit */;
+			productType = "com.apple.product-type.tool";
+		};
+		AB4FD854413F4A03944E0DFD /* glew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D97D7D27E7474A0197B2D0E9 /* Build configuration list for PBXNativeTarget "glew" */;
+			buildPhases = (
+				56F8DA15033140A6B472A38B /* Sources */,
+				F9DA4A91FCB94D42988FC502 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = glew;
+			productName = glew;
+			productReference = F669ABB7A322459EAD015EA7 /* glew */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDD4B5147FB640AB890F2173 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1520;
+			};
+			buildConfigurationList = 0877AC75312C4E5E87D320BE /* Build configuration list for PBXProject "ColladaViewer" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				7644099AFF1E4D978AF38513 /* Debug */,
+				8820F4D78EA840DEAD58BEA2 /* Release */,
+				77F3DA18FCCC4728BDF0725E /* MinSizeRel */,
+				81524CAAD93140B98CDC3B52 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 3DA6525F222845E1B72E49E6;
+			projectDirPath = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle";
+			projectRoot = "";
+			targets = (
+				439BB0A6F1BF47EDBC7A83AB /* ALL_BUILD */,
+				3DB95B801DB547D580E401AA /* CGL */,
+				DAF07CB8651441EBBB53B566 /* ZERO_CHECK */,
+				AB4FD854413F4A03944E0DFD /* glew */,
+				200DBA5295254D91AA303CE2 /* glfw */,
+				FA6B35E9ECD042DEB8643778 /* install */,
+				86CC0EA8B6F04C0DA9AF540A /* meshedit */,
+				176BEB4F3B244B05BD24DBC6 /* uninstall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3C8B9B9628600475EB03CBF8 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		676CC206BA5412138745A309 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode
+  /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode
+  /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode
+  /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode
+  /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D3784B378C7486C392194546 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode
+  make -f /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode
+  make -f /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode
+  make -f /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode
+  make -f /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		E013611C0EF924CE86909FF7 /* Generate CGL/deps/glfw/CMakeFiles/uninstall */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CGL/deps/glfw/CMakeFiles/uninstall";
+			outputPaths = (
+"/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/deps/glfw/CMakeFiles/uninstall"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/deps/glfw
+  /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -P /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/deps/glfw/cmake_uninstall.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/deps/glfw
+  /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -P /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/deps/glfw/cmake_uninstall.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/deps/glfw
+  /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -P /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/deps/glfw/cmake_uninstall.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/deps/glfw
+  /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -P /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/deps/glfw/cmake_uninstall.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A23FEADFCFC449F9EA221A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76FEC6E948DB40559BC9769E /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/cocoa_init.m */,
+				ECDC245AC9C94489B6BA712C /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/cocoa_monitor.m */,
+				3627A20AF8AC410EB9BBA0A9 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/cocoa_window.m */,
+				B9820CBD11894729B41AE1BA /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/context.c */,
+				D23C685F2B0D49FB8B3A7ADC /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/init.c */,
+				0130775912114E93968FC4C7 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/input.c */,
+				2FE10F2E8BA14827BB230862 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/iokit_joystick.m */,
+				0E688D43753B4C0499E06106 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/mach_time.c */,
+				606E9A82706A4D3BA7181430 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/monitor.c */,
+				653FB9F9C6304D848E133243 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/nsgl_context.m */,
+				3C348EA6F11642C6BB007710 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/posix_tls.c */,
+				C90FE4A23FAD4E2AA9DF2229 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src/window.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F8DA15033140A6B472A38B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086429AF7717485D90652A87 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glew/src/glew.c */,
+				84F303EED5894A049E751A46 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glew/src/glewinfo.c */,
+				276CE9E808B94899B32DA6A4 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glew/src/visualinfo.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA28FC8012DF4FBF8CB54DAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC828F922354C32BEE4D7EC /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/base64.cpp */,
+				1B14145BB27B43D8B1EB0784 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/color.cpp */,
+				E0E667696464432794226CE2 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/complex.cpp */,
+				179B8AFEF4FE43A686D90D2B /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/matrix3x3.cpp */,
+				67D04313E20840FAA4DFCCC9 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/matrix4x4.cpp */,
+				2742FB9BF144443A87403A74 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/osdfont.cpp */,
+				8545D1A8D69348C8B47D615E /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/osdtext.cpp */,
+				260D6A6E0F6D4D3A9695D0D3 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/quaternion.cpp */,
+				FF8D5DBAB8494081A63483A8 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/tinyxml2.cpp */,
+				ED804A36F10C459883B1E83F /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/vector2D.cpp */,
+				09E5D8B8F8B14119A1C8D48F /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/vector3D.cpp */,
+				8FFEB2ED6D174874AA6DA0EF /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/vector4D.cpp */,
+				08C75F9803754606BED04C25 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src/viewer.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFCC67AE05B426C9D84094C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90DD22A7B074434C86DC0C54 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/bezierCurve.cpp */,
+				4313F7467E894DE5B5BDAE8E /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/bezierPatch.cpp */,
+				0A6AB92FB0E54E2C9AE3DACE /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/camera.cpp */,
+				6917ACBA428841A9834C0B8A /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/collada.cpp */,
+				08FCBE8CB9BF4E819D3FC302 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/halfEdgeMesh.cpp */,
+				08482A0C5E24412E86F99329 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/light.cpp */,
+				5374B8112CF241C28C05EEC1 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/main.cpp */,
+				6A1EF75A7C4F45B29CDBCABA /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/material.cpp */,
+				540F32A1E47046DEBEA4F164 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/mesh.cpp */,
+				A165F221C40D449F81AF0C25 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/meshEdit.cpp */,
+				69CFCDEADD774547BCC39D26 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/png.cpp */,
+				A085837A969C438DA8EE0461 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/scene.cpp */,
+				461DA0DF29E14DDCA89E2B12 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/student_code.cpp */,
+				7D84F3FA04E54FD180ACE0B8 /* /Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/src/texture.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		201D0C753F4045EB90B775D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DB95B801DB547D580E401AA /* CGL */;
+			targetProxy = F394949C674F489585C91A2C /* PBXContainerItemProxy */;
+		};
+		296699086A264140A0331FB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 439BB0A6F1BF47EDBC7A83AB /* ALL_BUILD */;
+			targetProxy = 556A3C991FCF4928BBEC6E30 /* PBXContainerItemProxy */;
+		};
+		37DBFC7C1A174A97A978D6CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAF07CB8651441EBBB53B566 /* ZERO_CHECK */;
+			targetProxy = 3DEE5B7E1FEC44CFAD5CF4C3 /* PBXContainerItemProxy */;
+		};
+		5A42D4BCE6684E6683B61F9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB4FD854413F4A03944E0DFD /* glew */;
+			targetProxy = B6C801CCD68940268A6278EF /* PBXContainerItemProxy */;
+		};
+		62F57F1B913543AEA850B389 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DB95B801DB547D580E401AA /* CGL */;
+			targetProxy = C095AA078F4C4870B66384E4 /* PBXContainerItemProxy */;
+		};
+		795FD52577694C0A9DE5147C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86CC0EA8B6F04C0DA9AF540A /* meshedit */;
+			targetProxy = 0C46D6519F684064AFCDE866 /* PBXContainerItemProxy */;
+		};
+		7E295452CAD54DAEA7BBC235 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 200DBA5295254D91AA303CE2 /* glfw */;
+			targetProxy = 66047B6FB8434CFC8F5804F5 /* PBXContainerItemProxy */;
+		};
+		7EB4755A682A4DF7978749A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB4FD854413F4A03944E0DFD /* glew */;
+			targetProxy = EC0507F25FBE41F6A86B4E4D /* PBXContainerItemProxy */;
+		};
+		98B36518AFF348BC90BD5880 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB4FD854413F4A03944E0DFD /* glew */;
+			targetProxy = DD60969F1F0E41CA8571C094 /* PBXContainerItemProxy */;
+		};
+		E6A0AEACD0AA4D98967FC826 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 200DBA5295254D91AA303CE2 /* glfw */;
+			targetProxy = ADDEF6981CA141DF8CA05486 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		029C1341366B47078ABEBC5E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		16CC3EC74B3A47DB9944E0FF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/deps/glew/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glew/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -w ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/build/glew.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		48DEB77375444037957F5239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/build";
+			};
+			name = Release;
+		};
+		4E9353FFB14744A9919F6D74 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/include",/Library/Frameworks/Mono.framework/Headers,/opt/homebrew/include/freetype2,"$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wno-deprecated-declarations -Wno-c++11-extensions ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/src/MinSizeRel/libCGL.a","/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/deps/glew/MinSizeRel/libglew.a","/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/deps/glfw/src/MinSizeRel/libglfw3.a","-framework Cocoa","-framework OpenGL","-framework IOKit","-framework CoreFoundation","-framework CoreVideo","-framework OpenGL","-framework OpenGL",/opt/homebrew/lib/libfreetype.dylib,"-framework IOKit","-framework CoreFoundation","-framework CoreVideo",/opt/homebrew/lib/libfreetype.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = meshedit;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/build/meshedit.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5824A630334845DEB6546189 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/deps/glfw/src/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,_GLFW_USE_CONFIG_H,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src","/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/deps/glfw/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIC -w   -Wall","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5A54E7E4DB52493FBA28F16C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/include",/Library/Frameworks/Mono.framework/Headers,/opt/homebrew/include/freetype2,"$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wno-deprecated-declarations -Wno-c++11-extensions ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/src/RelWithDebInfo/libCGL.a","/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/deps/glew/RelWithDebInfo/libglew.a","/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/deps/glfw/src/RelWithDebInfo/libglfw3.a","-framework Cocoa","-framework OpenGL","-framework IOKit","-framework CoreFoundation","-framework CoreVideo","-framework OpenGL","-framework OpenGL",/opt/homebrew/lib/libfreetype.dylib,"-framework IOKit","-framework CoreFoundation","-framework CoreVideo",/opt/homebrew/lib/libfreetype.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = meshedit;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/build/meshedit.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		62A079DEBD1E4621961D31D4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		65447DC416924306AAA1FF01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/deps/glew/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glew/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -w ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/build/glew.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		677E0E6F7F944BB4B6BCB2D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		6F9020E5D13F4FA2A0437449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		713964F211744CE496DF7DDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		714B55174EC5451B8A7608E1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		85ED116CB5734B8EA39468F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8F85F9FFA2C547FD898414F7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/src/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/include","/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glew/include",/Library/Frameworks/Mono.framework/Headers,/opt/homebrew/include/freetype2,"/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wno-constant-conversion ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CGL;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/build/CGL.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A8A0727E36EC452498C1B5C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/deps/glew/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glew/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   -w ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/build/glew.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		AB0E2AA722A643F3A2D88C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/src/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/include","/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glew/include",/Library/Frameworks/Mono.framework/Headers,/opt/homebrew/include/freetype2,"/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   -Wno-constant-conversion ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CGL;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/build/CGL.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		AE229A4C9B9B40C8AC756808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/deps/glfw/src/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,_GLFW_USE_CONFIG_H,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src","/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/deps/glfw/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   -fPIC -w   -Wall","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		AFBA01476B244968B709B5EE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		BD0D5AE17B3B4A5297BD1068 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/build";
+			};
+			name = RelWithDebInfo;
+		};
+		C95EE3DD10634DE888E3ADC8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/deps/glew/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glew/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG -w ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/build/glew.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D64E69FF728A4B75B70E713E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D92098581D13464C8FCC4B7F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/src/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/include","/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glew/include",/Library/Frameworks/Mono.framework/Headers,/opt/homebrew/include/freetype2,"/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wno-constant-conversion ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CGL;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/build/CGL.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DA1BB7435F524EBAA1A8703A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/include",/Library/Frameworks/Mono.framework/Headers,/opt/homebrew/include/freetype2,"$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wno-deprecated-declarations -Wno-c++11-extensions ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/src/Release/libCGL.a","/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/deps/glew/Release/libglew.a","/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/deps/glfw/src/Release/libglfw3.a","-framework Cocoa","-framework OpenGL","-framework IOKit","-framework CoreFoundation","-framework CoreVideo","-framework OpenGL","-framework OpenGL",/opt/homebrew/lib/libfreetype.dylib,"-framework IOKit","-framework CoreFoundation","-framework CoreVideo",/opt/homebrew/lib/libfreetype.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = meshedit;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/build/meshedit.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		DED91FF329D44135AC0DE355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DF6C5484B8B94E7FB440D2B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk;
+				SYMROOT = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/build";
+			};
+			name = Debug;
+		};
+		E14EB58473A1493F8E64863D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E1ADC6E48E1B456B82842F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E473D3478DB247199E13753A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/include",/Library/Frameworks/Mono.framework/Headers,/opt/homebrew/include/freetype2,"$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   -Wno-deprecated-declarations -Wno-c++11-extensions ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/src/Debug/libCGL.a","/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/deps/glew/Debug/libglew.a","/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/deps/glfw/src/Debug/libglfw3.a","-framework Cocoa","-framework OpenGL","-framework IOKit","-framework CoreFoundation","-framework CoreVideo","-framework OpenGL","-framework OpenGL",/opt/homebrew/lib/libfreetype.dylib,"-framework IOKit","-framework CoreFoundation","-framework CoreVideo",/opt/homebrew/lib/libfreetype.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = meshedit;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/build/meshedit.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E4DCD6139BC845958E2B7F0D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/build";
+			};
+			name = MinSizeRel;
+		};
+		EDAE45525E3048769DA1325A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F201F6EBC2AA4359BB0A2452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/src/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/include","/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glew/include",/Library/Frameworks/Mono.framework/Headers,/opt/homebrew/include/freetype2,"/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wno-constant-conversion ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CGL;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/build/CGL.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F98D6F1A049D4936B76BF8DA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/deps/glfw/src/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,_GLFW_USE_CONFIG_H,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src","/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/deps/glfw/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG -fPIC -w   -Wall","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FCE0DAAEE34441B09D85EE64 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FCF217F982D54455AB1054F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/deps/glfw/src/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,_GLFW_USE_CONFIG_H,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/CGL/deps/glfw/src","/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/CGL/deps/glfw/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIC -w   -Wall","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/carolynwang/desktop/cs184/hw2-meshedit-sp24-tiny-turtle/xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		FDCF0D18833A46C488C7EE79 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FF03D4560C5C4B77B7CFB53D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0636C172BED948078EE3630E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDAE45525E3048769DA1325A /* Debug */,
+				85ED116CB5734B8EA39468F7 /* Release */,
+				62A079DEBD1E4621961D31D4 /* MinSizeRel */,
+				714B55174EC5451B8A7608E1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0877AC75312C4E5E87D320BE /* Build configuration list for PBXProject "ColladaViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6C5484B8B94E7FB440D2B3 /* Debug */,
+				48DEB77375444037957F5239 /* Release */,
+				E4DCD6139BC845958E2B7F0D /* MinSizeRel */,
+				BD0D5AE17B3B4A5297BD1068 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1666CE10CAC443E999EB0326 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1ADC6E48E1B456B82842F2E /* Debug */,
+				6F9020E5D13F4FA2A0437449 /* Release */,
+				FCE0DAAEE34441B09D85EE64 /* MinSizeRel */,
+				E14EB58473A1493F8E64863D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		25E8CC4B358F4E798DFDAE59 /* Build configuration list for PBXAggregateTarget "uninstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF03D4560C5C4B77B7CFB53D /* Debug */,
+				713964F211744CE496DF7DDD /* Release */,
+				029C1341366B47078ABEBC5E /* MinSizeRel */,
+				FDCF0D18833A46C488C7EE79 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4F578DF1859846F290F67DD6 /* Build configuration list for PBXNativeTarget "CGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0E2AA722A643F3A2D88C6E /* Debug */,
+				F201F6EBC2AA4359BB0A2452 /* Release */,
+				8F85F9FFA2C547FD898414F7 /* MinSizeRel */,
+				D92098581D13464C8FCC4B7F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		72FB115BCB6E46F0B37EFD19 /* Build configuration list for PBXNativeTarget "meshedit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E473D3478DB247199E13753A /* Debug */,
+				DA1BB7435F524EBAA1A8703A /* Release */,
+				4E9353FFB14744A9919F6D74 /* MinSizeRel */,
+				5A54E7E4DB52493FBA28F16C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D24DB8FCA9C24B0ABE583120 /* Build configuration list for PBXNativeTarget "glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE229A4C9B9B40C8AC756808 /* Debug */,
+				FCF217F982D54455AB1054F3 /* Release */,
+				5824A630334845DEB6546189 /* MinSizeRel */,
+				F98D6F1A049D4936B76BF8DA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D81C43A5A27745979DF6C669 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED91FF329D44135AC0DE355 /* Debug */,
+				677E0E6F7F944BB4B6BCB2D3 /* Release */,
+				D64E69FF728A4B75B70E713E /* MinSizeRel */,
+				AFBA01476B244968B709B5EE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D97D7D27E7474A0197B2D0E9 /* Build configuration list for PBXNativeTarget "glew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8A0727E36EC452498C1B5C0 /* Debug */,
+				65447DC416924306AAA1FF01 /* Release */,
+				16CC3EC74B3A47DB9944E0FF /* MinSizeRel */,
+				C95EE3DD10634DE888E3ADC8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDD4B5147FB640AB890F2173 /* Project object */;
+}
