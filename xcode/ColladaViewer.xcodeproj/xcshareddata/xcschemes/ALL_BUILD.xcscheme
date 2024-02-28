@@ -56,8 +56,12 @@
             isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "../dae/teapot.dae"
+            argument = "../dae/cube.dae"
             isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "../dae/teapot.dae"
+            isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "../bzc/curve1_6pts.bzc "
